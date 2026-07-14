@@ -2,147 +2,223 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pet Adoption - Pawriendly Care</title>
-  <link rel="shortcut icon" type="image/x-icon" href="Pics/vetLogo.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .navbar-brand {
-      display: flex;
-      align-items: center;
-    }
-
-    h1{
-      font-weight: 600;
-    }
-    .navbar-brand img {
-      margin-right: 10px;
-    }
-
-    .navbar-nav .nav-link {
-      transition: color 0.3s;
-    }
-
-    .navbar-nav .nav-link:hover {
-      color: #007bff;
-    }
-
-    #adoption {
-      padding: 60px 0;
-      background-color: #f8f9fa;
-    }
-
-    .section-intro {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-
-    .pet-card {
-      border: 1px solid #dee2e6;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      text-align: center;
-      background-color: #ffffff;
-      color:#004a6c;
-    }
-
-    .pet-card img {
-      border-radius: 10px;
-      max-height: 200px;
-      width: auto;
-      margin-bottom: 15px;
-      color: #004a6c;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pet Adoption - Pawriendly Care</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Pics/vetLogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img class="icon" src="Pics/vetLogo.png" style="height: 90px; width: 90px;" alt="Logo">
-        Pawriendly Care
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse sticky-bar" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="adoption.html">Adoption</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="icon" src="Pics/vetLogo.png" style="height: 70px; width: 70px;" alt="Logo">
+                Pawriendly Care
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sticky-bar" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="adoption.html">Adoption</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <section id="adoption">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 section-intro">
-          <h1></h1>
-          <div class="hline"></div>
-          <h3 style="color: #004a6c;">Find your new best friend today! Here are some of the pets available for adoption.</h3>
+    <!-- Page Header -->
+    <section id="home" style="min-height: 50vh;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h1>Find Your Furry Friend</h1>
+                    <p class="slogan">"Where Every Paw Receives Loving Care"</p>
+                    <p class="subtitle">Meet our adorable pets looking for their forever homes</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <!-- Pet Card 1 -->
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="pet-card">
-            <img src="Pics/pet1.jpg" alt="Picture of Pet 1">
-            <h4>Togee</h4>
-            <p>Age: 2 years</p>
-            <p>Breed: Half Puspin/ Half Bengal</p>
-          </div>
+    </section>
+
+    <!-- Adoption Section -->
+    <section id="adoption">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro">
+                    <h1>Pets Available for Adoption</h1>
+                    <h3>Find your new best friend today! Here are some of the pets available for adoption.</h3>
+                    <div class="hline"></div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Pet Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pet-card">
+                        <img src="Pics/pet1.jpg" alt="Togee" class="img-fluid">
+                        <h4>Togee</h4>
+                        <p><i class="bi bi-calendar3 me-2"></i>Age: 2 years</p>
+                        <p><i class="bi bi-heart me-2"></i>Breed: Half Puspin/ Half Bengal</p>
+                        <p class="mt-3" style="color: #555; font-weight: 400; font-size: 0.95rem;">Togee is a sweet and playful cat who loves cuddles and chasing toys. He's fully vaccinated and ready for his forever home!</p>
+                        <button class="btn btn-primary mt-3" style="background: var(--accent-color); border-color: var(--accent-color);">Inquire About Adoption</button>
+                    </div>
+                </div>
+                <!-- Pet Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pet-card">
+                        <img src="Pics/pet2.jpg" alt="Kotaro" class="img-fluid">
+                        <h4>Kotaro</h4>
+                        <p><i class="bi bi-calendar3 me-2"></i>Age: 1 year</p>
+                        <p><i class="bi bi-heart me-2"></i>Breed: Puspin</p>
+                        <p class="mt-3" style="color: #555; font-weight: 400; font-size: 0.95rem;">Kotaro is an energetic and friendly kitten who loves to explore and play. He gets along well with other pets!</p>
+                        <button class="btn btn-primary mt-3" style="background: var(--accent-color); border-color: var(--accent-color);">Inquire About Adoption</button>
+                    </div>
+                </div>
+                <!-- Pet Card 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pet-card">
+                        <img src="Pics/pet3.jpg" alt="Nigguel" class="img-fluid">
+                        <h4>Nigguel</h4>
+                        <p><i class="bi bi-calendar3 me-2"></i>Age: 3 months</p>
+                        <p><i class="bi bi-heart me-2"></i>Breed: Puspin</p>
+                        <p class="mt-3" style="color: #555; font-weight: 400; font-size: 0.95rem;">Nigguel is a tiny, adorable puppy with a huge personality! He's curious, loving, and ready to bring joy to your home.</p>
+                        <button class="btn btn-primary mt-3" style="background: var(--accent-color); border-color: var(--accent-color);">Inquire About Adoption</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adoption Info -->
+            <div class="row mt-5 pt-5" style="border-top: 1px solid #eee;">
+                <div class="col-12 section-intro">
+                    <h1>Adoption Process</h1>
+                    <h3>Here's how you can bring your new friend home</h3>
+                    <div class="hline"></div>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex">
+                                <div class="me-4" style="width: 60px; height: 60px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">1</div>
+                                <div>
+                                    <h5 style="color: var(--primary-color);">Submit Inquiry</h5>
+                                    <p style="color: #555; font-weight: 400;">Contact us about the pet you're interested in adopting.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex">
+                                <div class="me-4" style="width: 60px; height: 60px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">2</div>
+                                <div>
+                                    <h5 style="color: var(--primary-color);">Interview & Screening</h5>
+                                    <p style="color: #555; font-weight: 400;">We'll have a brief chat to ensure it's a good match.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex">
+                                <div class="me-4" style="width: 60px; height: 60px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">3</div>
+                                <div>
+                                    <h5 style="color: var(--primary-color);">Meet & Greet</h5>
+                                    <p style="color: #555; font-weight: 400;">Spend some time getting to know your potential new friend.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex">
+                                <div class="me-4" style="width: 60px; height: 60px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">4</div>
+                                <div>
+                                    <h5 style="color: var(--primary-color);">Take Them Home!</h5>
+                                    <p style="color: #555; font-weight: 400;">Complete the paperwork and welcome your new family member.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Pet Card 2 -->
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="pet-card">
-            <img src="Pics/pet2.jpg" alt="Picture of Pet 2">
-            <h4>Kotaro</h4>
-            <p>Age: 1 year</p>
-            <p>Breed: Puspin</p>
-          </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="Pics/vetLogo.png" alt="Logo" style="height: 60px; width: 60px; margin-right: 15px;">
+                        <h4 style="margin: 0; color: var(--white);">Pawriendly Care</h4>
+                    </div>
+                    <p>Your trusted partner in pet healthcare. We provide comprehensive veterinary services with love
+                        and compassion for every furry friend.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="adoption.html">Adoption</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Our Services</h4>
+                    <a href="services.html">Preventive Care</a>
+                    <a href="services.html">Emergency Care</a>
+                    <a href="services.html">Surgery</a>
+                    <a href="services.html">Grooming</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contact Info</h4>
+                    <p><i class="bi bi-envelope me-2"></i>pawriendlycare@gmail.com</p>
+                    <p><i class="bi bi-telephone me-2"></i>0999-xxx-xxxx</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>Pawriendly Care Clinic</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pawriendly Care. All rights reserved. | Made with <i class="bi bi-heart-fill"
+                        style="color: var(--accent-color);"></i> for pets</p>
+            </div>
         </div>
-        <!-- Pet Card 3 -->
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="pet-card">
-            <img src="Pics/pet3.jpg" alt="Picture of Pet 3">
-            <h4>Nigguel</h4>
-            <p>Age: 3 months</p>
-            <p>Breed: Puspin</p>
-          </div>
-        </div>
-        <!-- Add more pet cards as needed -->
-      </div>
-    </div>
-  </section>
-  
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
